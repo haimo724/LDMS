@@ -70,5 +70,7 @@ public class ProjectOrderExtend extends ProjectOrder {
                 "files"+getFiles()+'\''+
                 '}';
     }
+	public void setStuId(String username) {
+	}
 
 }

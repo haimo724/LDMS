@@ -14,4 +14,12 @@ public class Teacher {
 
     private String academy;
 
+	public Object getId() {
+		return null;
+	}
+
+	public String getName() {
+		return null;
+	}
+
 }

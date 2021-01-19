@@ -40,4 +40,8 @@ public class DeviceExtend extends Device {
     public void setSubjectName(String subjectName) {
         this.subjectName = subjectName;
     }
+
+	public String getId() {
+		return null;
+	}
 }

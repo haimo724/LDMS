@@ -77,4 +77,6 @@ public interface StudentService {
                                                     Integer offset,
                                                     Student student);
 
+	public void deleteByPrimaryKey(Object id);
+
 }

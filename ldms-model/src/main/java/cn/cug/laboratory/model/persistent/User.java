@@ -19,4 +19,12 @@ public class User {
     private String password;
 
     private String auth;
+
+	public String getUsername() {
+		return null;
+	}
+
+	public String getAuth() {
+		return null;
+	}
 }

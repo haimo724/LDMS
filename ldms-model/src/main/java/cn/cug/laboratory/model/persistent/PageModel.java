@@ -19,6 +19,10 @@ import lombok.Data;
 
 import java.util.List;
 
+import cn.cug.laboratory.model.extend.DeviceExtend;
+import cn.cug.laboratory.model.extend.ProjectExtend;
+import cn.cug.laboratory.model.extend.ProjectOrderExtend;
+
 import static javafx.scene.input.KeyCode.T;
 
 /**
@@ -83,5 +87,18 @@ public class PageModel<T> {
             this.endPage = this.totalPages;
         }
     }
+
+	public Integer getStartPosition() {
+		return null;
+	}
+
+	public void setData(List<ProjectExtend> data2) {
+	}
+
+	public void setData(List<ProjectOrderExtend> data2) {
+	}
+
+	public void setData(List<ProjectOrderExtend> data2) {
+	}
 
 }

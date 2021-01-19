@@ -35,4 +35,12 @@ public class ProjectExtend extends Project {
                 ", leftCapacity=" + getLeftCapacity() +
                 '}';
     }
+
+    private String getLeftCapacity() {
+        return null;
+    }
+
+    private String getStartTime() {
+        return null;
+    }
 }

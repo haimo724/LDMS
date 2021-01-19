@@ -15,4 +15,12 @@ public class Student {
     private String academy;
 
     private String sex;
+
+	public String getName() {
+		return null;
+	}
+
+	public Object getId() {
+		return null;
+	}
 }

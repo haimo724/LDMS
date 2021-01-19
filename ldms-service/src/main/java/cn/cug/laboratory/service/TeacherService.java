@@ -47,4 +47,5 @@ public interface TeacherService {
     public PageModel<Teacher> selectMultiInfoByPage(Integer currentPage,
                                                     Integer offset,
                                                     Teacher teacher);
+	public void deleteByPrimaryKey(Object id);
 }

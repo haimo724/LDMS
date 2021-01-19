@@ -51,4 +51,14 @@ public class Device {
     private String purchaseType;
 
     private String ps;
+
+	public void setName(String substring) {
+	}
+
+	public void setModelId(String substring) {
+	}
+
+	public String getId() {
+		return null;
+	}
 }
